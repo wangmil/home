@@ -1,0 +1,165 @@
+/* size of the boxes; defines the borders */
+* {
+  box-sizing: border-box;
+}
+
+
+/* makes the colour of the links different */
+a:link {
+	color: #cccccc;
+}
+a:visited {
+	color: #888888;
+}
+a:hover {
+	color: #ff3300;
+}
+
+
+/* makes the images float to the left */
+img
+{
+	float: left;
+	margin-right: 20px;
+}
+
+/* pretty much defines the overall look of the website; where the text is, the background etc. */
+body 
+{
+	background-image: url("images/FOOD.png"); width:100%; height:100%;
+  	background-attachment: fixed;
+  	background-position: center;
+	background-repeat: no-repeat;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+}
+
+h1,h2,h3,h4,h5,h6,p
+{
+	font-family:sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	text-align: center;
+}
+
+
+
+
+/* what headers look like */
+header 
+{
+  	background-color: rgba(0, 0, 0, 0.92);
+  	padding: 30px;
+  	width: 100%;
+  	text-align: center;
+  	font-size: 25pt;
+}
+
+/* what articles look like */
+article 
+{
+	font-size: 15pt;
+  	float: left;
+  	padding: 20px;
+  	width: 100%;
+  	background-color: rgba(0, 0, 0, 0.82);
+  	color: white;
+	  
+}
+
+
+
+/* Basically to clear the floats and to display the layout without interference from other layout parts */
+section:after 
+{
+  	content: "";
+  	display: table;
+  	clear: both;
+}
+
+
+footer 
+{
+  	background-color: rgba(0, 0, 0, 0.92);
+  	padding: 10px;
+  	text-align: center;
+  	color: white;
+}
+
+
+table 
+{
+	float: right;
+	width:100%;
+	text-align: left;
+	
+}
+
+th, td 
+{
+	padding: 8px;
+	font-size: 25px;
+}
+
+th
+{
+	background-color: #aa0000;
+	
+}
+
+td
+{
+	background-color: #000000;
+}
+th:hover 
+{
+	background-color: #f5f5f5;
+	color: #000000;
+}
+
+
+td:hover 
+{
+	background-color: #f5f5f5;
+	color: #000000;
+}
+
+
+
+/* The navigation bar at the top*/
+
+ul {
+  	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color: #222;
+}
+
+li a {
+	font-size: 15pt;
+  	float: left;
+  	display: block;
+  	color: white;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+}
+
+
+li a:hover {
+  	background-color: #111;
+}
+
+.active {
+  	background-color: #dd1100;
+}
+
+
+
+
+
+
+
