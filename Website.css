@@ -3,9 +3,10 @@
   	box-sizing: border-box;
 }
 
+/* makes anything with the id top have a black highlight*/ 
 #Top
 {
-	background-color: Black;
+	background-color: #000000; 
 }	
 
 /* makes the colour of the links different */
