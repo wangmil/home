@@ -1,6 +1,6 @@
 /* size of the boxes; defines the borders */
 * {
-  box-sizing: border-box;
+  	box-sizing: border-box;
 }
 
 
