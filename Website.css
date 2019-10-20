@@ -9,6 +9,11 @@
 	background-color: #000000; 
 }	
 
+
+.megabr
+{
+	height: 600px;
+}
 /* makes the colour of the links different */
 a:link {
 	color: #cccccc;
